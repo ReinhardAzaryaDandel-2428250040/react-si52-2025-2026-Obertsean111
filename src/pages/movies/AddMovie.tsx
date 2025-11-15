@@ -4,9 +4,20 @@ import Button from 'react-bootstrap/Button';
 function AddMovie(){
     return <div>
         <div>
-            <li>Judul       :  </li>
-            <li>Tahun       :  </li>
-            <li>Pengarang   :  </li>
+            <div>
+                <p>Judul : <input type="text" name="Judul" />
+                </p>
+            </div>
+            <div>
+                <p>Tahun Rilis : <input type="integer" name="Tahun Rilis" />
+                </p>
+            </div>
+            <div>
+                <p>Pengarang : <input type="text" name="Pengarang" />
+                </p>
+            </div>
+
+
         </div>
         <Button variant="btn btn-success">Tambah</Button>
         <p></p>
