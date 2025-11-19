@@ -13,7 +13,7 @@ function AddMovie(){
                 </p>
             </div>
             <div>
-                <p>Pengarang : <input type="text" name="Pengarang" />
+                <p>Pengarang : <input type="text" name="Pengarang   " />
                 </p>
             </div>
 
